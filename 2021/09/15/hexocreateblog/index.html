@@ -185,7 +185,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.4k 字
+      1.5k 字
     </span>
   
 
@@ -195,7 +195,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      15
+      16
        分钟
     </span>
   
@@ -256,6 +256,8 @@
 </ol>
 <ul>
 <li>检查SSH key 是否存在<br>右键调出Git Bash 窗口,输入<br><code> ls -al ~/.ssh</code><br>如果有id_rsa.pub 或 id_dsa.pub，则已有ssh key</li>
+<li>配置SSH key<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs lua">git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.name &quot;your github name&quot;</span><br>git <span class="hljs-built_in">config</span> <span class="hljs-comment">--global user.email &quot;your github email&quot;</span><br></code></pre></td></tr></table></figure>
+这里的your github name输入你的GitHub用户名，your github email输入你GitHub的邮箱。这样GitHub才能知道你是不是对应它的账户。</li>
 <li>新建SSH key<br>打开cmd，在命令行输入<br><code>ssh-keygen -t rsa -C &quot;your_emial@examle.com&quot;</code><br>引号里面是你的邮箱地址，直接按回车即可。<br>默认会在相应路径下（/c/Users/Administrator/.ssh/id_rsa）生成id_rsa和id_rsa.pub ，说明密钥生成成功。</li>
 <li>生成SSH key<br>打开github的主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：打开id_rsa.pub文件，里面的信息直接复制生成即可。</li>
 </ul>
