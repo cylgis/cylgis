@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>MarkDown语法技巧</title>
+    <url>/cylgis/2021/09/15/firstblog/</url>
+    <content><![CDATA[<p>这是简单使用的markdown语法规则，也是我的第一个博客，一边学习一边记录下来，一起成长。</p>
+<h2 id="一、标题的引用"><a href="#一、标题的引用" class="headerlink" title="一、标题的引用"></a>一、标题的引用</h2><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h4 id="这是四级标题"><a href="#这是四级标题" class="headerlink" title="这是四级标题"></a>这是四级标题</h4><h5 id="这是五级标题"><a href="#这是五级标题" class="headerlink" title="这是五级标题"></a>这是五级标题</h5><h6 id="这是六级标题"><a href="#这是六级标题" class="headerlink" title="这是六级标题"></a>这是六级标题</h6><p>标题前面需要加#<br>注：标准语法一般在#后跟个空格再写文字，尤其是后面的列表，不加空格会出错。</p>
+<p>文字默认不会换行，需要自己加一行空格才行。</p>
+<hr>
+<h2 id="二、符号的使用"><a href="#二、符号的使用" class="headerlink" title="二、符号的使用"></a>二、符号的使用</h2><ol>
+<li><p><strong>分割线的使用</strong></p>
+<p> 如果直接在文字下一行放分割线—，会编程标题加粗字号变大，需要空一行加—或者***才会会出现分割线。</p>
+</li>
+</ol>
+<p>  效果如下：</p>
+<hr>
+<p>如果没有，则直接变成标题。</p>
+<ol start="2">
+<li><strong>字体的简单设置</strong><br>下面分别是倾斜，加粗，倾斜带加粗的文字，分别用1、2、3个*号或者_号将文字包起来。</li>
+</ol>
+<p>比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">_倾斜文字_</span><br><span class="line"></span><br><span class="line">**加粗文字**</span><br><span class="line"></span><br><span class="line">***倾斜加粗文字***</span><br></pre></td></tr></table></figure>
+<p>显示的效果如下：</p>
+<blockquote>
+<p><em>倾斜文字</em></p>
+</blockquote>
+<blockquote>
+<p><strong>加粗文字</strong></p>
+</blockquote>
+<blockquote>
+<p><em><strong>倾斜加粗文字</strong></em></p>
+</blockquote>
+<ol start="3">
+<li><strong>删除线使用</strong></li>
+</ol>
+<p>需要删除的线用~~括起来。</p>
+<p>示例：</p>
+<p><code>~~这是删除线的文字~~</code></p>
+<p>显示效果如下：</p>
+<p><del>这是删除线的文字</del></p>
+<ol start="4">
+<li> <strong>字体颜色的引用</strong></li>
+</ol>
+<p> markdown支持html5的语法规则，直接使用html5的语法规则即可。<br> 其中左右两边分别用==包起来的字体为高亮。</p>
+<p>如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font color=&#x27;red&#x27; size=5 &gt;红色5号字&lt;/font&gt;</span><br><span class="line">&lt;font color=&#x27;blue&#x27; size= 6&gt;蓝色6号字&lt;/font&gt;</span><br><span class="line"> ==高亮字体==</span><br></pre></td></tr></table></figure>
+
+<p>显示效果：<br><font color='red' size=5 >红色5号字</font><br><font color='blue' size= 6>蓝色6号字</font><br>==高亮字体==</p>
+<h2 id="三、列表的引用"><a href="#三、列表的引用" class="headerlink" title="三、列表的引用"></a>三、列表的引用</h2><ul>
+<li><strong>无序列表</strong><br>采用-、+、*任意一中包起来即可，注意一定要在文字前面加一个空格才行<br>例如：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">- 列表1</span><br><span class="line">+ 列表2</span><br><span class="line">* 列表3</span><br></pre></td></tr></table></figure>
+显示效果：</li>
+<li>列表1</li>
+</ul>
+<ul>
+<li>列表2</li>
+</ul>
+<ul>
+<li>列表3</li>
+</ul>
+<ul>
+<li><strong>有序列表</strong><br>直接用阿拉伯数字加一个’.’即可，有序列表可以不用空格。<br>例如：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">1.列表1</span><br><span class="line">2.列表2</span><br><span class="line">3.列表3</span><br></pre></td></tr></table></figure>
+显示效果：</li>
+</ul>
+<p>1.列表1<br>2.列表2<br>3.列表3</p>
+<hr>
+<h2 id="四、代码部分"><a href="#四、代码部分" class="headerlink" title="四、代码部分"></a>四、代码部分</h2><p>采用``包起来引用一行代码，采用```包起来引用多行代码，代码前后用三个号括起来。(注意是键盘左上角英文符号，不是单引号，我就踩坑了)</p>
+<p>示例部分：<br>单行：<br><code>this is my first code</code><br>多行：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">this is my first code;</span><br><span class="line">this is my secend code;</span><br><span class="line">this is my third code;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="五、图片的引用"><a href="#五、图片的引用" class="headerlink" title="五、图片的引用"></a>五、图片的引用</h2><p>语法如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片alt](图片地址 &#x27;&#x27;图片title&#x27;&#x27;)</span><br><span class="line"></span><br><span class="line">图片alt就是显示在图片下面的文字，相当于对图片内容的解释。图片地址可以是链接也可以是相对路径，</span><br><span class="line">图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<p><img src="/img/heman.png" alt="引用图片"></p>
+<hr>
+<h2 id="六、表格的引用"><a href="#六、表格的引用" class="headerlink" title="六、表格的引用"></a>六、表格的引用</h2><p>用’|’将单元格隔开，然后用’–|:’来隔开表头和表的内容<br>示例：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">姓名|技能|排行</span><br><span class="line">--|:--:|--:</span><br><span class="line">刘备|哭|大哥</span><br><span class="line">关羽|打|二哥</span><br><span class="line">张飞|骂|三弟</span><br></pre></td></tr></table></figure>
+<p>显示效果：<br>姓名|技能|排行<br>–|:–:|–:<br>刘备|哭|大哥<br>关羽|打|二哥<br>张飞|骂|三弟</p>
+<hr>
+<h2 id="七、超链接的引用"><a href="#七、超链接的引用" class="headerlink" title="七、超链接的引用"></a>七、超链接的引用</h2><p>语法：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[超链接名](超链接地址 &quot;title&quot;),title可省略</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>示例：<br><code>[百度](http://baidu.com &quot;点击跳转百度&quot;)</code><br>显示效果：<br><a href="http://baidu.com/" title="点击跳转百度">百度</a></p>
+<hr>
+<h2 id="八、表情符号的引用"><a href="#八、表情符号的引用" class="headerlink" title="八、表情符号的引用"></a>八、表情符号的引用</h2><p>Markdown 是支持 Emoji 表情的，格式是使用冒号 : 包裹表情代码。<br>示例：<br><code>:smile:</code><br>显示效果：<br>:smile:</p>
+<p>注：感谢大家的观看，如有疑问，详细的规则请查看<a href="http://markdown.p2hp.com/">markdown</a></p>
+]]></content>
+      <tags>
+        <tag>markdown</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/cylgis/2021/09/14/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+</search>
