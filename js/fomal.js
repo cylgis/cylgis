@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'BVOBZ-CK43T-FZZXO-VEW43-KELD2-KBFXA',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -99,7 +99,7 @@ function getDistance(e1, n1, e2, n2) {
 
 function showWelcome() {
 
-  let dist = getDistance(113.34499552, 23.15537143, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
+  let dist = getDistance(115.965575, 28.702031, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
   let posdesc;
@@ -1113,27 +1113,27 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("20/08/2023 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Fomalhaut🥝の小家!`,
+    `欢迎来到cyl&cxq🥝の小家!`,
     `Future is now 🍭🍭🍭`,
     `
         
-███████  ██████  ███    ███  █████  ██      ██   ██  █████  ██    ██ ████████ 
-██      ██    ██ ████  ████ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-█████   ██    ██ ██ ████ ██ ███████ ██      ███████ ███████ ██    ██    ██    
-██      ██    ██ ██  ██  ██ ██   ██ ██      ██   ██ ██   ██ ██    ██    ██    
-██       ██████  ██      ██ ██   ██ ███████ ██   ██ ██   ██  ██████     ██   
+███████    ██   ██     ███        
+██          ██ ██      ███        
+██           ██        ███      
+██           ██        ███      
+███████      ██        ████████    
                                               
 `,
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2022 By Fomalhaut",
+    "©2023 By Cylgis",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Fomalhaut🥝 %c 你正在访问Fomalhaut🥝の小家",
+      "%c ⚡ Powered by cylgis %c 你正在访问cyl&cxq🥝の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Fomalhaut🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Fomalhaut🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| cylgis🥝") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('cylgis🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
@@ -1321,11 +1321,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👀跑哪里去了~';
+    document.title = '👀往哪里跑！~';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖抓到你啦～';
+    document.title = '🐖被逮住了吧～';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2519,18 +2519,24 @@ if (m == 12 && dd == 25) {//圣诞节
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 8 && dd == 11) {//站长生日
+if (m == 1 && dd == 16) {//站长生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
     Swal.fire("祝站长" + (y - 1998).toString() + "岁生日快乐！🥝");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
-if (m == 6 && dd == 30) {//小猫咪生日
+if (m == 8 && dd == 20) {//站长夫人生日
   if (sessionStorage.getItem("isPopupWindow") != "1") {
-    Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
+    Swal.fire("祝站长夫人" + 18 + "岁生日快乐！🥝");
     sessionStorage.setItem("isPopupWindow", "1");
   }
 }
+// if (m == 6 && dd == 30) {//小猫咪生日
+//   if (sessionStorage.getItem("isPopupWindow") != "1") {
+//     Swal.fire("祝小猫咪" + (y - 1999).toString() + "岁生日快乐！🐱");
+//     sessionStorage.setItem("isPopupWindow", "1");
+//   }
+// }
 
 //传统节日部分
 
