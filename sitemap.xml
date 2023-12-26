@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/box/gallery/%E9%B1%BC%E5%B0%BE%E6%B4%B2/index.html</loc>
+    <loc>https://www.cylgis.top/box/gallery/yuweizhou/index.html</loc>
     
     <lastmod>2023-12-26</lastmod>
     
@@ -74,25 +74,7 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/personal/bb/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.cylgis.top/site/census/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.cylgis.top/site/time/index.html</loc>
+    <loc>https://www.cylgis.top/box/nav/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -110,16 +92,7 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.cylgis.top/box/nav/index.html</loc>
+    <loc>https://www.cylgis.top/site/census/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -137,7 +110,16 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/life/music/index.html</loc>
+    <loc>https://www.cylgis.top/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cylgis.top/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -147,6 +129,24 @@
   
   <url>
     <loc>https://www.cylgis.top/social/link/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cylgis.top/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cylgis.top/life/music/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
