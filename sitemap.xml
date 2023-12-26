@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://www.cylgis.top/box/gallery/wallpaper/index.html</loc>
+    
+    <lastmod>2023-12-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.cylgis.top/box/gallery/yuweizhou/index.html</loc>
     
     <lastmod>2023-12-26</lastmod>
@@ -74,6 +83,24 @@
   </url>
   
   <url>
+    <loc>https://www.cylgis.top/box/nav/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cylgis.top/personal/bb/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.cylgis.top/life/games/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -101,15 +128,6 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/personal/bb/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.cylgis.top/site/time/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
@@ -128,25 +146,16 @@
   </url>
   
   <url>
-    <loc>https://www.cylgis.top/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.cylgis.top/box/nav/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.cylgis.top/social/link/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.cylgis.top/social/fcircle/index.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
