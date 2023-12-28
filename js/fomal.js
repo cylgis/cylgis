@@ -78,6 +78,7 @@ $.ajax({
   },
   dataType: 'jsonp',
   success: function (res) {
+    console("欢迎信息", res)
     ipLoacation = res;
   }
 })
@@ -1119,8 +1120,8 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到cyl&cxq🥝の小家!`,
-    `Future is now 🍭🍭🍭`,
+    `欢迎来到cyl&cxqの小家!`,
+    `Future is now`,
     `
         
 ███████    ██   ██     ███        
@@ -1163,7 +1164,7 @@ function createtime2() {
       "color:white; background-color:#10bcc0",
       "",
       "",
-      'background:url("https://unpkg.zhimg.com/anzhiyu-assets@latest/image/common/tinggge.gif") no-repeat;font-size:450%'
+      'background:url("https://picgo.cylgis.top/picture/cover/2023/12/26/default_cover_1.webp") no-repeat;font-size:450%'
     )
   );
 
@@ -1172,7 +1173,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by cylgis %c 你正在访问cyl&cxq🥝の小家",
+      "%c ⚡ Powered by cylgis %c 你正在访问cyl&cxqの小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1321,11 +1322,11 @@ var titleTime;
 document.addEventListener('visibilitychange', function () {
   if (document.hidden) {
     //离开当前页面时标签显示内容
-    document.title = '👀往哪里跑！~';
+    document.title = '👀往哪里跑！';
     clearTimeout(titleTime);
   } else {
     //返回当前页面时标签显示内容
-    document.title = '🐖被逮住了吧～';
+    document.title = '→被逮住了吧！';
     //两秒后变回正常标题
     titleTime = setTimeout(function () {
       document.title = OriginTitile;
@@ -2956,7 +2957,7 @@ function setFontBorder() {
 
 // 设置主题色
 if (localStorage.getItem("themeColor") == undefined) {
-  localStorage.setItem("themeColor", "green");
+  localStorage.setItem("themeColor", "blue");
 }
 setColor(localStorage.getItem("themeColor"));
 function setColor(c) {
@@ -3180,10 +3181,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/dm14.webp);
-    --darkmode-bg:url(https://lskypro.acozycotage.net/Fomalhaut/img/yuanshen1.webp);
-    --mobileday-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/snow.webp);
-    --mobilenight-bg: url(https://lskypro.acozycotage.net/Fomalhaut/img/mb8.webp);
+    --default-bg: url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_2.webp);
+    --darkmode-bg:url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_44.webp);
+    --mobileday-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_211.webp);
+    --mobilenight-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/mb17.webp);
   }`;
 }
 // 切换背景主函数
@@ -3413,7 +3414,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/home_bg.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_7.webp.webp)" class="imgbox" onclick="changeBg('url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_7.webp)')"></a></div>
               </div>
             </details>
 
@@ -3422,17 +3423,10 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picgo.cylgis.top/picture/cover/2023/12/26/default_cover_1.webp)" class="imgbox" onclick="changeBg('url(https://picgo.cylgis.top/picture/cover/2023/12/26/default_cover_1.webp)')"></a></div>
               </div>
             </details>
 
-<h3>3. 萌宠</h3>
-
-<details class="folding-tag" cyan><summary> 查看萌宠背景 </summary>
-              <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mc1.webp)')"></a></div>
-              </div>
-            </details>
 
 <h3>4. 渐变色</h3>
 <details class="folding-tag" cyan><summary> 查看渐变色背景 </summary>
@@ -3454,7 +3448,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_9.webp)" class="pimgbox" onclick="changeBg('url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_9.webp)')"></a></div>
               </div>
             </details>
 
