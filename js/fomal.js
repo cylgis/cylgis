@@ -78,7 +78,6 @@ $.ajax({
   },
   dataType: 'jsonp',
   success: function (res) {
-    console.log("欢迎信息", res)
     ipLoacation = res;
   }
 })
@@ -99,7 +98,7 @@ function getDistance(e1, n1, e2, n2) {
 }
 
 function showWelcome() {
-
+if(ipLoacation != null){
   let dist = getDistance(115.965575, 28.702031, ipLoacation.result.location.lng, ipLoacation.result.location.lat); //这里换成自己的经纬度
   let pos = ipLoacation.result.ad_info.nation;
   let ip;
@@ -282,7 +281,7 @@ function showWelcome() {
   else if (date.getHours() >= 16 && date.getHours() < 19) timeChange = "<span>夕阳无限好！</span>";
   else if (date.getHours() >= 19 && date.getHours() < 24) timeChange = "<span>晚上好</span>，夜生活嗨起来！";
   else timeChange = "夜深了，早点休息，少熬夜。";
-
+}
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
