@@ -2800,8 +2800,8 @@ function createtime() {
   let currentTimeHtml = "";
   (currentTimeHtml =
     hnum < 18 && hnum >= 9
-      ? `<img class='boardsign' src='https://picgo.cylgis.top/picture/asses/2023/12/29/开心.svg' title='两年后的千万富翁就是你~'><br> <div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>`
-      : `<img class='boardsign' src='https://picgo.cylgis.top/picture/asses/2023/12/29/开心.svg' title='下班了随便逛逛吧~'><br>`),
+      ? `<div style="font-size:13px;font-weight:bold">本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 <i id="heartbeat" class='fas fa-heartbeat'></i>`
+      : `<div style="font-size:13px;font-weight:bold">下班啦</div>`),
     document.getElementById("workboard") &&
     (document.getElementById("workboard").innerHTML = currentTimeHtml);
 }
