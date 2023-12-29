@@ -3170,7 +3170,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url('https://picgo.cylgis.top/picture/cover/2023/12/default_cover_2.webp);
+    --default-bg: url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_2.webp);
     --darkmode-bg:url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_44.webp);
     --mobileday-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_211.webp);
     --mobilenight-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/mb17.webp);
