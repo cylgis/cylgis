@@ -7709,13 +7709,13 @@ button#go-up:hover #percent {
 
 /* 个人信息卡片背景图 */
 [data-theme="light"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/springBg.png);
+  background-image: url(https://picgo.cylgis.top/picture/cover/2023/12/26/default_cover_1.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(https://tuchuang.voooe.cn/images/2023/02/28/aurora.webp);
+  background-image: url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_8.webp);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
