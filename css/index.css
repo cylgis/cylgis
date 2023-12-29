@@ -6727,6 +6727,9 @@ center#name-container {
   border-radius: 20px !important;
 }
 
+:root {--trans-light:url("https://picgo.cylgis.top/picture/cover/2023/12/26/default_cover_1.webp");
+} 
+
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item {
   background: var(--trans-light);
