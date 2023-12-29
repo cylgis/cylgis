@@ -1121,17 +1121,6 @@ function createtime1() {
 
   var ascll = [
     `欢迎来到cyl&cxqの小家!`,
-    `Future is now`,
-    `
-                 _           _       
-                | |         (_)      
-   ___   _   _  | |   __ _   _   ___ 
-  / __| | | | | | |  / _` | | | / __|
- | (__  | |_| | | | | (_| | | | \__ \
-  \___|  \__, | |_|  \__, | |_| |___/
-          __/ |       __/ |          
-         |___/       |___/           
-`,
     "小站已经苟活",
     dnum,
     "天啦!",
@@ -3182,7 +3171,7 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://picgo.cylgis.top/picture/cover/2023/12/default_cover_2.webp);
+    --default-bg: url('https://picgo.cylgis.top/picture/cover/2023/12/default_cover_2.webp);
     --darkmode-bg:url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_44.webp);
     --mobileday-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/default_cover_211.webp);
     --mobilenight-bg: url(https://picgo.cylgis.top/picture/asses/2023/12/28/mb17.webp);
