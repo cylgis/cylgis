@@ -78,7 +78,7 @@ $.ajax({
   },
   dataType: 'jsonp',
   success: function (res) {
-    console("欢迎信息", res)
+    console.log("欢迎信息", res)
     ipLoacation = res;
   }
 })
